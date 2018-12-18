@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+		
+        <LinearLayout 
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical">  
+
+
+   		 	<TextView
+ 		        android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:background="#ff9900"
+			    android:textColor="#ffffff"
+			    android:layout_gravity="center"
+  		        android:gravity="center"
+		        android:text="Full Course"
+		        android:textSize="30dp"/>     
+		        
+   		 	<TextView 
+   		 	    android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+			    android:textColor="#00cc33"
+   		 	    android:layout_gravity="center"
+  		        android:gravity="center"
+  		        android:textSize="20dp"
+  		        android:text="How would you like to choose your menu?"
+  		        android:textStyle="italic"
+   		 	    />
+   		 	
+   		 	<Space 
+   		 	    android:layout_width="fill_parent"
+        		android:layout_height="15dp"
+   		 	    />
+
+   		 	<ImageView
+   		 	    android:layout_width="fill_parent"
+   		 	    android:layout_height="wrap_content"
+   		 	    android:src="@drawable/crse" />
+   		 	
+   		 	<Space 
+   		 	     android:layout_width="fill_parent"
+ 		       	 android:layout_height="20dp"
+   		 	        />
+        
+   		 	    <Button
+   		 	        android:id="@+id/bCom"
+        			android:layout_width="fill_parent"
+ 		       		android:layout_height="wrap_content"
+				    android:background="#ff9900"
+				    android:textColor="#ffffff"
+			    	android:layout_gravity="center"
+  		        	android:gravity="center"
+  		        	android:text="Combo" />
+
+   		 	    <Space 
+   		 	        android:layout_width="fill_parent"
+ 		       		android:layout_height="10dp"
+   		 	        />
+   		 	    
+			    <Button
+			        android:id="@+id/bFull"
+			        android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+				    android:background="#ff9900"
+			    	android:textColor="#ffffff"
+			  	    android:layout_gravity="center"
+  		        	android:gravity="center"
+  		        	android:text="Dishes" />
+   		 	
+   		 	
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+      <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+   		 <TextView
+        		android:layout_width="fill_parent"
+       			android:layout_height="wrap_content"
+			    android:background="#990099"
+ 			    android:layout_gravity="center" 
+ 			    android:gravity="center"
+		        android:text="Party Time"
+		        android:textSize="30dp"
+		        android:textColor="#ffffff" />
+   		 
+   		 <ImageView 
+   		     android:layout_width="fill_parent"
+       		 android:layout_height="wrap_content"
+       		 android:layout_gravity="center" 
+ 		     android:gravity="center"
+       		 android:src="@drawable/party"	
+   		     />
+   		 
+   		 <Space
+   		      android:layout_width="200dp"
+ 		      android:layout_height="35dp"
+   		     />
+   		 
+   		 <TextView
+   		     android:layout_width="fill_parent"
+       		 android:layout_height="wrap_content"
+       		 android:layout_gravity="center" 
+ 		     android:gravity="center"
+ 		     android:text="Eneter your total guest no."
+ 		     android:textSize="20dp"
+ 		     android:textStyle="italic"
+ 		     android:textColor="#990099"
+   		      />
+
+   		   <EditText
+		        android:id="@+id/etP1"
+        		android:layout_width="fill_parent"
+      		    android:layout_height="wrap_content"
+      		    android:textColor="#990099"
+      		    android:ems="10" >
+
+        		<requestFocus />
+    		</EditText>
+		
+   		   <Space
+   		      android:layout_width="200dp"
+ 		      android:layout_height="10dp"
+   		     />
+   		   
+   		   <TextView
+   		     android:layout_width="fill_parent"
+       		 android:layout_height="wrap_content"
+       		 android:layout_gravity="center" 
+ 		     android:gravity="center"
+ 		     android:text="Choose your party type..."
+ 		     android:textSize="20dp"
+ 		     android:textStyle="italic"
+ 		     android:textColor="#990099"
+   		      />
+   		   
+   		   <Space
+   		      android:layout_width="200dp"
+ 		      android:layout_height="10dp"
+   		     />
+   		   			
+   		 <Button
+   			    android:id="@+id/bPS"
+		        android:layout_width="250dp"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="left"
+			    android:background="#ff0033"
+       			android:text="Crispy Crunch"
+       			android:textSize="25dp"
+       			android:textColor="#ffffff" />
+   		 
+   		 <Space
+   		      android:layout_width="200dp"
+ 		      android:layout_height="10dp"
+   		     />
+
+    	<Button
+        		android:id="@+id/bPF"
+		        android:layout_width="200dp"
+ 			    android:layout_height="wrap_content"
+			    android:background="#cc33ff"
+		        android:textColor="#ffffff"
+		        android:text="Full Course"
+		        android:layout_gravity="right"
+		     	android:gravity="center"
+		        android:textSize="25dp" />
+   		 
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

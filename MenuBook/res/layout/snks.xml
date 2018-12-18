@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TextView 
+        		android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+        		android:text="Go Crazy with Crispy"
+ 		       	android:textSize="30dp"
+        		android:layout_gravity="center"
+  		        android:gravity="center"
+        		android:background="#ff0033"
+	    		android:textColor="#ffffff" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Bill scratch Pad: To pay   0"
+        android:layout_gravity="center"
+        android:gravity="center" />
+				
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:weightSum="100"
+		    android:orientation="horizontal"
+		    android:padding="10dp"
+		    >
+
+			<TextView
+			    android:id="@+id/cbCB"
+			    android:layout_width="200dp"
+			    android:layout_height="match_parent"
+			    android:text="Crispy Chicken Burger\ntk.150"
+			    android:textSize="15dp" />
+
+			<Space
+			    android:layout_width="10dp"
+			    android:layout_height="match_parent" />
+
+			<Button
+			    android:id="@+id/bCBAdd1"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+			    android:background="#ffffcc"
+			    android:text="+" />
+			
+			<TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="20dp"
+			    android:text="0"
+			    android:id="@+id/tvAmm"
+			    />
+			
+			<Button
+			    android:id="@+id/bCBSub1"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+        		android:background="#ffcc99"
+			    android:text="-"
+			    android:textColor="#ffffff" />
+		
+		</LinearLayout>
+    
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:weightSum="100"
+		    android:orientation="horizontal"
+		    android:padding="10dp"
+		    >
+
+			<TextView
+			    android:id="@+id/cbCC"
+			    android:layout_width="200dp"
+			    android:layout_height="match_parent"
+			    android:text="Crispy Fried Chicken\ntk.100"
+			    android:textSize="15dp" />
+
+			<Space
+			    android:layout_width="10dp"
+			    android:layout_height="match_parent" />
+
+			<Button
+			    android:id="@+id/bCBAdd2"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+			    android:background="#ffffcc"
+			    android:text="+" />
+			
+			<TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="20dp"
+			    android:text="0"
+			    android:id="@+id/tvAmm2"
+			    />
+			
+			<Button
+			    android:id="@+id/bCBSub2"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+        		android:background="#ffcc99"
+        		android:textColor="#ffffff"
+			    android:text="-" />
+					
+		</LinearLayout>
+		
+				<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:weightSum="100"
+		    android:orientation="horizontal"
+		    android:padding="10dp"
+		    >
+
+			<TextView
+			    android:id="@+id/cbFF"
+			    android:layout_width="200dp"
+			    android:layout_height="match_parent"
+			    android:text="French Fries\ntk.80"
+			    android:textSize="15dp" />
+
+			<Space
+			    android:layout_width="10dp"
+			    android:layout_height="match_parent" />
+
+			<Button
+			    android:id="@+id/bFFAdd2"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+			    android:background="#ffffcc"
+			    android:text="+" />
+			
+			<TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="20dp"
+			    android:text="0"
+			    android:id="@+id/tvAmm3"
+			    />
+			
+			<Button
+			    android:id="@+id/bFFSub2"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+        		android:background="#ffcc99"
+        		android:textColor="#ffffff"
+			    android:text="-" />
+					
+		</LinearLayout>
+		
+				
+				<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:weightSum="100"
+		    android:orientation="horizontal"
+		    android:padding="10dp"
+		    >
+
+			<TextView
+			    android:id="@+id/cbCP"
+			    android:layout_width="200dp"
+			    android:layout_height="match_parent"
+			    android:text="Chicken Pizza\ntk.150"
+			    android:textSize="15dp" />
+
+			<Space
+			    android:layout_width="10dp"
+			    android:layout_height="match_parent" />
+
+			<Button
+			    android:id="@+id/bCPAdd2"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+			    android:background="#ffffcc"
+			    android:text="+" />
+			
+			<TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="20dp"
+			    android:text="0"
+			    android:id="@+id/tvAmm4"
+			    />
+			
+			<Button
+			    android:id="@+id/bCPSub2"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+        		android:background="#ffcc99"
+        		android:textColor="#ffffff"
+			    android:text="-" />
+					
+		</LinearLayout>
+		
+						<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:weightSum="100"
+		    android:orientation="horizontal"
+		    android:padding="10dp"
+		    >
+
+			<TextView
+			    android:id="@+id/cbBP"
+			    android:layout_width="200dp"
+			    android:layout_height="match_parent"
+			    android:text="Beef Pizza\ntk.170"
+			    android:textSize="15dp" />
+
+			<Space
+			    android:layout_width="10dp"
+			    android:layout_height="match_parent" />
+
+			<Button
+			    android:id="@+id/bBPAdd2"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+			    android:background="#ffffcc"
+			    android:text="+" />
+			
+			<TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="20dp"
+			    android:text="0"
+			    android:id="@+id/tvAmm5"
+			    />
+			
+			<Button
+			    android:id="@+id/bBPSub2"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+        		android:background="#ffcc99"
+        		android:textColor="#ffffff"
+			    android:text="-" />
+					
+		</LinearLayout>
+		
+				<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:weightSum="100"
+		    android:orientation="horizontal"
+		    android:padding="10dp"
+		    >
+
+			<TextView
+			    android:id="@+id/cbS"
+			    android:layout_width="200dp"
+			    android:layout_height="match_parent"
+			    android:text="Chicken Shwarma\ntk.100"
+			    android:textSize="15dp" />
+
+			<Space
+			    android:layout_width="10dp"
+			    android:layout_height="match_parent" />
+
+			<Button
+			    android:id="@+id/bSAdd2"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+			    android:background="#ffffcc"
+			    android:text="+" />
+			
+			<TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="20dp"
+			    android:text="0"
+			    android:id="@+id/tvAmm6"
+			    />
+			
+			<Button
+			    android:id="@+id/bSSub2"
+			    android:layout_width="42dp"
+			    android:layout_height="42dp"
+        		android:background="#ffcc99"
+        		android:textColor="#ffffff"
+			    android:text="-" />
+					
+		</LinearLayout>
+
+		<TextView
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:textSize="15dp"
+		    android:textColor="#66ccff"
+		    android:textStyle="italic"
+		    android:layout_gravity="center"
+		    android:gravity="center"
+		    android:text="If you are set with the menu then " />
+
+		<Button
+		    android:id="@+id/bOrd"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+        	android:background="#66ccff"
+		    android:textSize="30dp"
+		    android:textStyle="italic"
+		    android:layout_gravity="center"
+		    android:gravity="center"
+		    android:text="Order"
+		    android:textColor="#ffffff" />
+		  
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

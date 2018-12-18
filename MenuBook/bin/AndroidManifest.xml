@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.menubook"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Mmnu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.menubook.MMNU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Snks"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.menubook.SNKS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Done"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.menubook.DONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Full"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.menubook.FULL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Dish"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.menubook.DISH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Comb"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.menubook.COMB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Party"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.menubook.PARTY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Special"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.menubook.SPECIAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

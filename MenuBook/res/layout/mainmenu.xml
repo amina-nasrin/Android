@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff6600" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TextView
+        	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+    	    android:layout_gravity="center"
+        	android:gravity="center"
+	        android:text="Which mood you are in?"
+    	    android:textSize="30dp"
+        	android:textColor="#ffffff"
+        	android:textStyle="bold"
+        	/>
+	    
+	    <LinearLayout
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+	        android:orientation="vertical"
+    	    android:layout_gravity="center"
+        	android:paddingTop="100dp"
+        	>
+               
+    			<Button
+			        android:id="@+id/bCC"
+			        android:layout_width="250dp"
+			        android:layout_height="wrap_content"
+			        android:background="#ff0033"
+        			android:text="Crispy Crunch"
+        			android:textSize="25dp"
+        			android:textColor="#ffffff" />
+    			
+    			<Space
+			        android:layout_width="250dp"
+			        android:layout_height="10dp" 
+    			    />
+
+    			<Button
+			        android:id="@+id/bFC"
+			        android:layout_width="200dp"
+ 			        android:layout_height="wrap_content"
+			        android:background="#ff6666"
+			        android:textColor="#ffffff"
+			        android:text="Full Course"
+			        android:textSize="25dp" />
+    			
+    			<Space
+			        android:layout_width="250dp"
+			        android:layout_height="10dp" 
+    			    />
+
+    			<Button
+			        android:id="@+id/bPT"
+			        android:layout_width="200dp"
+			        android:layout_height="wrap_content"
+			        android:background="#ff9933"
+			        android:layout_gravity="right"
+			        android:text="Party Time"
+			        android:textSize="25dp"
+			        android:textColor="#ffffff" />
+    			
+    			<Space
+			        android:layout_width="250dp"
+			        android:layout_height="10dp" 
+    			    />
+
+    			<Button
+        			android:id="@+id/bSO"
+			        android:layout_width="250dp"
+			        android:layout_height="wrap_content"
+			        android:background="#ff0000"
+			        android:text="Special Offers!!!"
+			        android:textSize="25dp"
+			        android:textColor="#ffffff"
+			        />
+        
+    	</LinearLayout>
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
