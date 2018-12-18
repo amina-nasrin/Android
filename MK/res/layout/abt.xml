@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mosquito killer is a mobile application that protects you from mosquito. It generates a sound wave that creates a environment in which mosquito or such types of insects cannot survive or even tolerate the frequency. This app does not kill mosquitos, it just prevents them to come near you when you are running the app on your phone." />
+
+</LinearLayout>

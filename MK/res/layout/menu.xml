@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mtl"
+    android:gravity="center"
+    android:layout_gravity="center"
+     >
+
+    <Button
+        android:background="@drawable/cm"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/bS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kill the mosquitos"
+        android:textColor="#ffffff"
+         />
+
+    <Button
+        android:background="@drawable/cm"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/bH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to use"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:background="@drawable/cm"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/bA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

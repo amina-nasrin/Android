@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mtl"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/tvH"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="&#8226; Press the start button.\n\n&#8226; Go back leaving the app run for any other purpose.\n\n&#8226; Press again to stop.\n\n&#8226; For better effect use the app in a closed space like room.\n\n&#8226; Do not use while earphones are plugged in.\n\n&#8226; Avoid Using in Pregnency.\n\n&#8226; Keep children 0-1 out of reach." />
+
+</LinearLayout>
